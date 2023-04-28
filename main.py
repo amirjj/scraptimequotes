@@ -4,6 +4,7 @@ import json
 from config import *
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from util import merge_all_files
 
 
 def fetch_q():
@@ -47,3 +48,4 @@ def test_json_print():
 if __name__ == '__main__':
     run()
     # test_json_print()
+    # merge_all_files(OUTPUT_PATH)
